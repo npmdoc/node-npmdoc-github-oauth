@@ -1,4 +1,7 @@
-# api documentation for  [github-oauth (v0.2.2)](https://github.com/maxogden/github-oauth)  [![npm package](https://img.shields.io/npm/v/npmdoc-github-oauth.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-github-oauth) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-github-oauth.svg)](https://travis-ci.org/npmdoc/node-npmdoc-github-oauth)
+# npmdoc-github-oauth
+
+#### basic api documentation for  [github-oauth (v0.2.2)](https://github.com/maxogden/github-oauth)  [![npm package](https://img.shields.io/npm/v/npmdoc-github-oauth.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-github-oauth) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-github-oauth.svg)](https://travis-ci.org/npmdoc/node-npmdoc-github-oauth)
+
 #### simple functions for doing oauth login with github
 
 [![NPM](https://nodei.co/npm/github-oauth.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/github-oauth)
@@ -56,7 +59,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "0.2.2"
+    "version": "0.2.2",
+    "bin": {}
 }
 ```
 
