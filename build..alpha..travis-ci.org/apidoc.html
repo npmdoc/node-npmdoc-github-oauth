@@ -70,28 +70,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.github-oauth.toString">
-            function <span class="apidocSignatureSpan">github-oauth.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.github-oauth.toString">module github-oauth.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.github-oauth.toString.toString">
-            function <span class="apidocSignatureSpan">github-oauth.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -174,71 +152,6 @@
   return emitter
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.github-oauth.toString" id="apidoc.element.github-oauth.toString">
-        function <span class="apidocSignatureSpan">github-oauth.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-var url = require(&#x27;url&#x27;)
-var crypto = require(&#x27;crypto&#x27;)
-
-module.exports = function(opts) {
-if (!opts.callbackURI) opts.callbackURI = &#x27;/github/callback&#x27;
-if (!opts.loginURI) opts.loginURI = &#x27;/github/login&#x27;
-if (typeof opts.scope === &#x27;undefined&#x27;) opts.scope = &#x27;user&#x27;
-var state = crypto.randomBytes(8).<span class="apidocCodeKeywordSpan">toString</span>(&#x27;hex&#x27;)
-var urlObj = url.parse(opts.baseURL)
-urlObj.pathname = url.resolve(urlObj.pathname, opts.callbackURI)
-var redirectURI = url.format(urlObj)
-var emitter = new events.EventEmitter()
-
-function addRoutes(router, loginCallback) {
-  // compatible with flatiron/director
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.github-oauth.toString" id="apidoc.module.github-oauth.toString">module github-oauth.toString</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.github-oauth.toString.toString" id="apidoc.element.github-oauth.toString.toString">
-        function <span class="apidocSignatureSpan">github-oauth.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-var url = require(&#x27;url&#x27;)
-var crypto = require(&#x27;crypto&#x27;)
-
-module.exports = function(opts) {
-if (!opts.callbackURI) opts.callbackURI = &#x27;/github/callback&#x27;
-if (!opts.loginURI) opts.loginURI = &#x27;/github/login&#x27;
-if (typeof opts.scope === &#x27;undefined&#x27;) opts.scope = &#x27;user&#x27;
-var state = crypto.randomBytes(8).<span class="apidocCodeKeywordSpan">toString</span>(&#x27;hex&#x27;)
-var urlObj = url.parse(opts.baseURL)
-urlObj.pathname = url.resolve(urlObj.pathname, opts.callbackURI)
-var redirectURI = url.format(urlObj)
-var emitter = new events.EventEmitter()
-
-function addRoutes(router, loginCallback) {
-  // compatible with flatiron/director
-...</pre></li>
     </ul>
 
 
